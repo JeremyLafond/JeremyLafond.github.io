@@ -94,7 +94,10 @@ header .current a:hover
 #showcase
 {
     min-height: 555px;
-    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.7)), url('../images/tribg.jpg') 0-170px round no-repeat; 
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.7)), url('../images/tribg.jpg') no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 50%;
     text-align:center;
     color:#ffffff;
 }
