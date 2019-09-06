@@ -1,15 +1,15 @@
 body
 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:15px;
     line-height:1.5;
     padding:0;
-    background-color:#a78aa6;
+    background-color:#E9FEFA;
 }
 
 .container
 {
-    width: 100%;
+    width: 80%;
     margin:auto;
     overflow:hidden;
 }
@@ -20,12 +20,9 @@ header
     color:#ffffff;
     padding-top:30px;
     min-height: 70px;
-    border-top: #F47378;
-    border-top-width: 2px;
-    border-bottom:#8c1b19;
-    border-bottom-width: 2px;
+    border-bottom:#16F4D0;
+    border-bottom-width: 3px;
     border-bottom-style: solid;
-    border-top-style: solid;
 }
 
 ul
@@ -37,7 +34,7 @@ ul
 .button_1
 {
     height:38px;
-    background: #F47378;
+    background: orange;
     border:none;
     padding-left: 20px;
     padding-right:20px;
@@ -75,26 +72,20 @@ header nav
 
 header .highlight, header .current a
 {
-    color:#b46dc9;
+    color:#16F4D0;
     font-weight: bold;
 }
 
 header a:hover
 {
-    color: #b46dc9;
-    font-weight:bold;
-}
-
-header .current a:hover
-{
-    color: #ffffff;
+    color: #cccccc;
     font-weight:bold;
 }
 
 #showcase
 {
-    min-height: 555px;
-    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.7)), url('../images/tribg.jpg') 0-170px round no-repeat; 
+    min-height: 400px;
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.7)), url('../images/santaCruz.jpg') no-repeat 0 -500px;
     text-align:center;
     color:#ffffff;
 }
@@ -116,11 +107,11 @@ header .current a:hover
     padding: 15px;
     color:#ffffff;
     background:#595959;
-    border-top: #F47378;
-    border-top-width: 1px;
+    border-top: #16F4D0;
+    border-top-width: 3px;
     border-top-style: solid;
     border-bottom: #F47378;
-    border-bottom-width: 1px;
+    border-bottom-width: 10px;
     border-bottom-style: solid;
 }
 
@@ -129,12 +120,6 @@ header .current a:hover
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#newsletter .flex-container div :hover
-{
-    color: #b46dc9;
-    font-weight:bold;
 }
 
 #newsletter .flex-container
@@ -167,6 +152,7 @@ header .current a:hover
 {
     color:#ffffff;
     text-decoration:none;
+    text-transform: uppercase;
 }
 
 #picture img
@@ -183,16 +169,13 @@ header .current a:hover
     font-size: 20px;
     line-height:2;
     text-align: left;
-    background: #595959;
+    background: #87CBDC;
     border-radius: 20px 20px 20px 20px;
     padding:30px;
     margin-left: 20px;
     margin-right: 20px;
     font-weight: normal;
     min-width: 400px;
-    border-style: solid;
-    border-color: #F47378;
-    border-width: 1px;
 }
 
 #languages img, #software img
@@ -201,7 +184,7 @@ header .current a:hover
     border-radius: 30%;
 }
 
-#software ul, #languages ul
+#software ul
 {
     list-style-type:none;
     display:table;
@@ -210,26 +193,28 @@ header .current a:hover
 
 #bio h2
 {
-    color: #595959;
-    background: #b46dc9;
+    color: #72AAA6;
+    background: #E9FEFA;
     border-radius: 20px 20px 20px 20px;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    border-style: solid;
-    border-color: #F47378;
-    border-width: 1px;
 }
 
-#languages, #software
+#languages
 {
     background-color: #595959;
     border-radius: 20px 20px 20px 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-style: solid;
-    border-color: #F47378;
-    border-width: 1px;
+}
+
+#software
+{
+    background-color: #595959;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #bio .flex-container div
@@ -359,13 +344,6 @@ footer
     padding: 10px;
     margin-top: 20px;
     color:#ffffff;
-    background-color:#595959;
+    background-color:#F47378;
     text-align: center;
-    border-top: #F47378;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-bottom: #F47378;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-
 }
